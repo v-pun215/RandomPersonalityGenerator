@@ -15,9 +15,8 @@ body {
 .content {
     background: rgba(0, 0, 0, 0.411);
     backdrop-filter: blur(10px);
-    width: 50%;
+    width: 60%;
     height:50%;
-    max-width: 800px;
     color: white;
     margin: 20px;
     padding: 20px;
