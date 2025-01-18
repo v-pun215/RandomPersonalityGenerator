@@ -1,0 +1,4 @@
+1. On page load, random wallpaper is now selected.
+2. Fixed some padding and also added a new favicon and icon.
+3. Fixed the footer.
+4. Added many, many, MANY more personalities, occupations, quirks, strengths and weaknesses.

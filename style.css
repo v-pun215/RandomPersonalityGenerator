@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
-    background-image: url(cool-background.png);
+    background-image: url(wallpaper.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Inter', sans-serif;
@@ -12,6 +12,9 @@ body {
     justify-content: center;
     height: 100vh;
 }
+#namelabel {
+    display:none;
+}
 .content {
     background: rgba(0, 0, 0, 0.411);
     backdrop-filter: blur(10px);
@@ -20,7 +23,7 @@ body {
     color: white;
     margin: 20px;
     padding: 20px;
-    height:70vh;
+    height:80vh;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -41,7 +44,8 @@ input {
     font-family: 'Inter', sans-serif;
 }
 input:active, input:focus {
-    outline: none;
+    outline: "white";
+    border:none;
 }
 :-ms-input-placeholder {
     color: white;
@@ -70,17 +74,22 @@ button:hover {
 .about{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    width: 95%;
+    margin-top: 10px;
+    width: 80%;
     background: rgba(0, 0, 0, 0.411);
     border-radius: 15px;
+    height: 32vh;
     min-height:fit-content;
     max-height:max-content;
-    padding: 20px;
+    padding-left: 20px;
+}
+.about p {
+    text-align: left;
+    margin-left:10vh;
 }
 .about div {
-    width: 50%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
     font-size: 18px;
 
 }
@@ -97,4 +106,19 @@ h3 {
 a {
     color:#007bff;
     text-decoration: underline;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+.titlee {
+    display: flex;
+    justify-content: center;
+}
+.titlee img {
+    margin-top: 3.5vh;
+    
+}
+.titlee h1 {
+    margin-left:20px;
 }

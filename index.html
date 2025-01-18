@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Personality Generator!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
     <script src="script.js"></script>
 </head>
-<body>
+<body id="wallpaper">
     <div class="content">
-        <h1>Random Personality Generator</h1>
+        <div class="titlee">
+            <img src="icon.png" alt="logo" width="50px" height="50px">
+            <h1>Random Personality Generator!</h1>
+        </div>
         <input id="name" type="text" placeholder="Enter character name">
         <p></p><button id="generate">Generate</button>
-        <center><h2 id="namelabel"></h2></center>
+        <p id="namelabel"></p>
+        <center>
         <div class="about">
             <div class="headings">
                 <h3>Personality</h3>
@@ -29,7 +34,7 @@
                 <p id="weakness"></p>
             </div>
         </p>
-        </div>
+        </div></center>
         <footer>
             <p>Made with 💚 by <a href="https://github.com/v-pun215">v-pun215</a></p>
         </footer>
